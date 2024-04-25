@@ -1,0 +1,41 @@
+Desarrollar una aplicación en Node.js que haga uso de los módulos globales y del módulo util de Node.js. La aplicación debe tener la funcionalidad de leer un archivo de texto, contar el número de líneas, palabras y caracteres en el archivo, y mostrar los resultados en la consola.
+
+Lógica de negocio (dominio):
+
+La aplicación se encargará de leer un archivo de texto y analizar su contenido para contar el número de líneas, palabras y caracteres en el archivo. Para lograr esto, se utilizarán los módulos globales de Node.js y el módulo util.
+
+Datos de entrada:
+
+* Archivo de texto
+
+Datos de salida:
+
+* Número de líneas en el archivo
+* Número de palabras en el archivo
+* Número de caracteres en el archivo
+
+Requerimientos funcionales:
+
+* La aplicación debe ser capaz de leer cualquier archivo de texto proporcionado.
+* La aplicación debe contar el número de líneas, palabras y caracteres en el archivo.
+* La aplicación debe mostrar los resultados en la consola.
+
+Requerimientos no funcionales:
+
+* La aplicación debe ser fácil de usar y comprender.
+* La aplicación debe ser eficiente y no consumir demasiados recursos del sistema.
+
+Pasos a realizar:
+
+1.Crear una carpeta para el proyecto y abrir una terminal en la misma.
+2.Inicializar el proyecto de Node.js con el comando npm init.
+3.Crear un archivo app.js en la carpeta del proyecto.
+4.Importar los módulos globales de Node.js process y fs en el archivo app.js.
+5.Leer el archivo de texto utilizando el método fs.readFileSync() y almacenar su contenido en una variable.
+6.Utilizar el método util.inspect() para mostrar el contenido del objeto process en la consola.
+7.Utilizar el método String.split() para separar el contenido del archivo en líneas y almacenar el resultado en una matriz.
+8.Utilizar el método Array.length para contar el número de elementos en la matriz y, por lo tanto, el número de líneas en el archivo.
+9.Utilizar el método String.split() para separar el contenido del archivo en palabras y almacenar el resultado en una matriz.
+10.Utilizar el método Array.length para contar el número de elementos en la matriz y, por lo tanto, el número de palabras en el archivo.
+11.Utilizar el método String.length para contar el número de caracteres en el archivo.
+12.Mostrar los resultados en la consola utilizando el método console.log().

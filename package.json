@@ -1,0 +1,19 @@
+{
+  "name": "desafio29",
+  "version": "1.0.0",
+  "description": "desafio29",
+  "main": "app.js",
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabox2002/desafio29.git"
+  },
+  "author": "Gabriel Quispe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabox2002/desafio29/issues"
+  },
+  "homepage": "https://github.com/gabox2002/desafio29#readme"
+}
