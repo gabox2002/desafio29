@@ -1,5 +1,5 @@
 
-# Contador de Líneas, Palabras y Caracteres en Archivos de Texto en Node.js
+# Contador de Líneas, Palabras y Caracteres en Archivos de Texto
 Esta aplicación en Node.js tiene la funcionalidad de leer un archivo de texto y contar el número de líneas, palabras y caracteres en el archivo. Utiliza los módulos globales y el módulo util de Node.js para lograr esto de manera eficiente.
 
 ## Requisitos Funcionales
